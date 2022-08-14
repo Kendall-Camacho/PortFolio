@@ -1,27 +1,409 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portfolio | KendallCamacho</title>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio | Kendall Camacho</title>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
       href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap"
       rel="stylesheet"
     />
-    <script src="https://kit.fontawesome.com/68f8461cb9.js"
-    crossorigin="anonymous"></script>
-    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css">
-    <link rel="stylesheet" href="css/hamburger.css"/>
-    <link rel="stylesheet" href="css/main.css"/>
-</head>
-<body class="main-page">
+    <script
+      src="https://kit.fontawesome.com/68f8461cb9.js"
+      crossorigin="anonymous"
+    ></script>
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"
+    />
+    <link rel="stylesheet" href="css/hamburger.css" />
+    <link rel="stylesheet" href="css/main.css" />
+  </head>
+
+  <body class="main-page">
     <nav class="nav__desktop">
-        ul.
+      <ul class="nav__links nav__links-desktop">
+        <li>
+          <a href="#home" class="nav__link nav__link-desktop"
+            ><i class="fa-solid fa-house"></i> Home</a
+          >
+        </li>
+        <li>
+          <a href="#about-me" class="nav__link nav__link-desktop"
+            ><i class="fa-solid fa-user"></i> About me</a
+          >
+        </li>
+        <!-- <li>
+          <a href="#projects" class="nav__link nav__link-desktop"
+            ><i class="fa-solid fa-laptop-code"></i> Projects</a
+          >
+        </li> -->
+        <li>
+          <a href="#resume" class="nav__link nav__link-desktop"
+            ><i class="fa-solid fa-file"></i> Resume</a
+          >
+        </li>
+        <li>
+          <a href="#contact" class="nav__link nav__link-desktop"
+            ><i class="fa-solid fa-at"></i> Contact</a
+          >
+        </li>
+      </ul>
     </nav>
-    
-    
-</body>
+
+    <button class="hamburger hamburger--spring" type="button">
+      <span class="hamburger-box">
+        <span class="hamburger-inner"></span>
+      </span>
+    </button>
+
+    <nav class="nav__mobile">
+      <ul class="nav__links">
+        <li><a href="#home" class="nav__link nav__link-mobile">Home</a></li>
+        <li>
+          <a href="#about-me" class="nav__link nav__link-mobile">About me</a>
+        </li>
+        <!-- aqui puedo poner algun dia el enlace de mis proyectos y la experiencia ;)-->
+        <li><a href="#resume" class="nav__link nav__link-mobile">Resume</a></li>
+        <li>
+          <a href="#contact" class="nav__link nav__link-mobile">Contact</a>
+        </li>
+      </ul>
+    </nav>
+
+    <header class="header scroll-spy-section" id="home">
+      <div class="header__text">
+        <h1 class="header__title">
+          <div>Hi! 👋🏻</div>
+          <div>I'm Kendall.</div>
+        </h1>
+        <p class="header__paragraph">
+          I am future web developer & Cibersecurity enginner.
+        </p>
+      </div>
+      <a href="#about-me" class="header__link">
+        <i class="fa-solid fa-arrow-down header__link-arrow"></i>
+      </a>
+    </header>
+
+    <main>
+      <section class="about-me section scroll-spy-section" id="about-me">
+        <h2 class="heading-underline">About me</h2>
+        <div class="wrapper">
+          <div class="about-me__card">
+            <img
+              src="img/amogus.png"
+              alt="A photo of myself."
+              class="about-me__card-img"
+            />
+            <div class="about-me__card-text">
+              <p class="about-me__card-paragraph">
+                Hi once again, my name is Kendall Camacho and about a year and a
+                half ago I started programming and I have been doing it ever
+                since. In one year I hope to finish high school and start
+                working in web & software development.
+              </p>
+              <p class="about-me__card-paragraph">
+                I have learned. <span class="bold-text">HTML5</span>, I started
+                with HTML5 then i start with
+                <span class="bold-text"> CSS</span> also
+                <span class="bold-text"> SCSS & Bootstrap</span> and
+                <span class="bold-text">JavaScript</span>. But i didn't stop
+                here a few months later that I started learning
+                <span class="bold-text">Python</span> and
+                <span class="bold-text">C++</span>.
+              </p>
+              <p class="about-me__card-paragraph">
+                I have learned a middle technician in
+                <span class="bold-text">Mobile repairing</span> also I have a
+                <span class="bold-text"
+                  >Cisco CCNA 1v7, IT Essentials, IoT</span
+                >
+                and <span class="bold-text"> Python certifications</span>
+              </p>
+              <p class="about-me__card-paragraph">
+                If you would like to get to know me more,
+                <span class="bold-text">check out my resume</span> down below.
+                Thanks!
+              </p>
+              <a href="#resume" class="btn"
+                >My resume
+                <div class="shadow"></div>
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="block-left"></div>
+        <div class="block-right"></div>
+      </section>
+
+      <!-- <section class="projects section scroll-spy-section" id="projects">
+            <h2 class="heading-underline">Projects</h2>
+            <div class="wrapper">
+                <div class="projects__cards">
+                    <div class="projects__card">
+                        <div class="projects__card-top">
+                            <img src="img/amogus.png" alt="Preview of a project."
+                                class="projcets__card-img">
+                        </div>
+                        <div class="projects__card-bottom">
+                            <div class="shadow"></div>
+                            <h3 class="projects__card-title heading-underline">TItulito</h3>
+                            <p class="projects__card-text">descripcion xd <span class="bold-text">Pueden ir tecnologias aqui bien mamalon xd</span>..</p>
+                            <a href="#" target="_blank"
+                                class="projects__card-link btn">Enlace del proyecto</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section> -->
+
+        
+      <section class="resume section scroll-spy-section" id="resume">
+        <h2 class="heading-underline">Resume</h2>
+        <div class="wrapper">
+          <div class="resume-container">
+            <div class="resume__title resume__section">
+              <h2 class="resume__name">Kendall Camacho</h2>
+            </div>
+            <div class="resume__contact resume__section">
+              <h3 class="resume__card-heading">
+                Contact
+                <div class="shadow"></div>
+              </h3>
+              <ul class="resume__list">
+                <li class="resume__list-item">kencamacho19@gmail.com</li>
+                <li class="resume__list-item">+506 8427 9777</li>
+                <li class="resume__list-item resume__list-links">
+                  <a class="resume__link resume__icon" href="#" target="_blank"
+                    ><i class="fa-brands fa-linkedin"></i
+                  ></a>
+                  <a
+                    class="resume__link resume__icon"
+                    href="https://github.com/kendall-camacho"
+                    target="_blank"
+                    ><i class="fa-brands fa-github"></i
+                  ></a>
+                  <a class="resume__link resume__icon" href="#contact"
+                    ><i class="fa-solid fa-at"></i
+                  ></a>
+                </li>
+              </ul>
+            </div>
+            <div class="resume__skills resume__section">
+              <h3 class="resume__card-heading">
+                Skills and software
+                <div class="shadow"></div>
+              </h3>
+              <ul class="resume__list resume__flex">
+                <li class="resume__framed-list-item">HTML</li>
+                <li class="resume__framed-list-item">CSS</li>
+                <li class="resume__framed-list-item">JavaScript</li>
+                <li class="resume__framed-list-item">SCSS</li>
+                <li class="resume__framed-list-item">Bootstrap</li>
+                <li class="resume__framed-list-item">Python</li>
+                <li class="resume__framed-list-item">SQL</li>
+                <li class="resume__framed-list-item">JavaScript</li>
+                <li class="resume__framed-list-item">Git & GitHub</li>
+                <li class="resume__framed-list-item">API</li>
+                <li class="resume__framed-list-item">Node & Express</li>
+                <li class="resume__framed-list-item">VS Code</li>
+                <li class="resume__framed-list-item">React</li>
+                <li class="resume__framed-list-item">
+                  MS Office & Google G Suite
+                </li>
+              </ul>
+            </div>
+            <div class="resume__languages resume__section">
+              <h3 class="resume__card-heading">
+                Foreign languages
+                <div class="shadow"></div>
+              </h3>
+              <ul class="resume__list">
+                <li class="resume__list-item">
+                  <span class="bold-text">Spanish</span> - native
+                </li>
+                <li class="resume__list-item">
+                  <span class="bold-text">English</span> - advanced B-2
+                </li>
+              </ul>
+            </div>
+            <!-- <div class="resume__experience resume__section">
+                        <h3 class="resume__card-heading">Work experience
+                            <div class="shadow"></div>
+                        </h3>
+                        <ul class="resume__list">
+                            <li class="resume__list-item">
+                                <div>
+                                    <small>Fecha de la vara</small>
+                                    <p class="bold-text">Accenture</p>
+                                </div>
+                                <div>
+                                    <h4 class="resume__experience-position">Decir que hice ahi xd</small>
+                                </div>
+                            </li>
+                        </ul>
+                    </div> -->
+            <div class="resume__certificates resume__section">
+              <h3 class="resume__card-heading">
+                Certificates
+                <div class="shadow"></div>
+              </h3>
+              <ul class="resume__list resume__flex">
+                <li class="resume__framed-list-item">
+                  <a href="#" target="_blank" class="resume__link"
+                    >CCNA 1v7 By Cisco</a
+                  >
+                </li>
+                <li class="resume__framed-list-item">
+                  <a href="#" target="_blank" class="resume__link"
+                    >IT essentials By Cisco</a
+                  >
+                </li>
+                <li class="resume__framed-list-item">
+                    <a href="#" target="_blank" class="resume__link"
+                      >IoT By Cisco</a
+                    >
+                  </li>
+                <li class="resume__framed-list-item">
+                  <a href="#" target="_blank" class="resume__link"
+                    >Angular By OpenBootcamp</a
+                  >
+                </li>
+                <li
+                  class="resume__framed-list-item"
+                  class="resume__framed-list-item"
+                >
+                  <a href="https://www.aba.ac.cr/" target="_blank" class="resume__link"
+                    >Mobile support By ABA</a
+                  >
+                </li>
+                <li
+                  class="resume__framed-list-item"
+                  class="resume__framed-list-item"
+                >
+                  <a href="#" target="_blank" class="resume__link"
+                    >Web Development 1&2 by Carlos Slim Foundation</a
+                  >
+                </li>
+              </ul>
+            </div>
+            <div class="resume__education resume__section">
+              <h3 class="resume__card-heading">
+                Education
+                <div class="shadow"></div>
+              </h3>
+              <ul class="resume__list">
+                <li class="resume__list-item">
+                  <small>2021 - now</small>
+                  <h4 class="resume__experience-position">
+                    Middle technician in Web Delevelopment
+                  </h4>
+                  <p>
+                    CTP de Aserrí
+                  </p>
+                </li>
+              </ul>
+            </div>
+            <div class="resume__interests resume__section">
+              <h3 class="resume__card-heading">
+                Interests and hobbys
+                <div class="shadow"></div>
+              </h3>
+              <ul class="resume__list">
+                <li class="resume__list-item">
+                  Read suspense and horror books
+                </li>
+                <li class="resume__list-item">
+                  I am a big fan of the Marvel Cinematic Universe
+                </li>
+                <li class="resume__list-item">
+                  I love repair laptops and other electronic devices
+                </li>
+                <li class="resume__list-item">Play Videogames</li>
+                <li class="resume__list-item">Learn a lot</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="contact section scroll-spy-section" id="contact">
+        <h2 class="heading-underline">Contact</h2>
+        <div class="wrapper">
+          <form
+            action="https://formsubmit.co/kencamacho19@gmail.com"
+            method="POST"
+            class="contact__form"
+          >
+            <input
+              type="hidden"
+              name="_subject"
+              value="New email from your website!"
+            />
+            <input
+              type="hidden"
+              name="_next"
+              value="#"
+            />
+            <label for="name">Your name:</label>
+            <input
+              type="text"
+              name="name"
+              id="name"
+              required
+              class="contact__form-input"
+            />
+            <label for="email">Your e-mail address:</label>
+            <input
+              type="email"
+              name="email"
+              id="email"
+              required
+              class="contact__form-input"
+            />
+            <label for="msg">Your message:</label>
+            <textarea
+              type="text"
+              name="message"
+              id="msg"
+              rows="10"
+              required
+              class="contact__form-input contact__form-input--msg"
+            ></textarea>
+            <button type="submit" class="btn contact__form-btn">
+              Send
+              <div class="shadow"></div>
+            </button>
+          </form>
+        </div>
+        <div class="block-left"></div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <p class="footer__text">
+        <span class="current-year"></span> | Camacho.
+      </p>
+    </footer>
+
+    <script
+      type="text/javascript"
+      src="//code.jquery.com/jquery-1.11.0.min.js"
+    ></script>
+    <script
+      type="text/javascript"
+      src="//code.jquery.com/jquery-migrate-1.2.1.min.js"
+    ></script>
+    <script
+      type="text/javascript"
+      src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"
+    ></script>
+    <script src="js/slick.js"></script>
+    <script src="js/main.js"></script>
+  </body>
 </html>
