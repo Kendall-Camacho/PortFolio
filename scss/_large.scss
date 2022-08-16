@@ -41,13 +41,13 @@
 		}
 	}
 
-	// .projects {
-	// 	&__card {
-	// 		&-title {
-	// 			font-size: 2.5rem;
-	// 		}
-	// 	}
-	// }
+	.projects {
+		&__card {
+			&-title {
+				font-size: 2.5rem;
+			}
+		}
+	}
 
 	.resume {
 		&__list {
