@@ -4,7 +4,6 @@ const navMobileLinks = document.querySelectorAll('.nav__link-mobile');
 
 const currentYear = document.querySelector('.current-year');
 
-alert("Me gusta el pene")
 
 const showYear = () => {
 	const time = new Date();
